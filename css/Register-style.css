@@ -1,0 +1,47 @@
+/*<!--logo头部***************************************************-->*/
+.Head{width: 960px;height: 60px;border-bottom: 1px solid #7A7F89;}
+.Head div:nth-child(1){width: 150px;height: 35px;float: left;margin-top: 15px;}
+.Head div>img{width: 100%;height: 100%;}
+/*<!--Center内容*************************************************-->*/
+.Center{width: 960px;height: 460px;border-bottom: 1px solid #7A7F89;}
+/*<!--左边图-->*/
+.Center>.Center-left{width: 365px;height: 280px;float: left;margin-top: 88px;margin-left: 120px;}
+.Center>.Center-left img{width: 100%;height: 100%;}
+/*<!--右边内容-->*/
+.Center>.Center-right{width: 325px;height: 400px;float: right;margin-right: 80px;margin-top: 48px;}
+/*红线上*/
+.Center>.Center-right>.Top-line>.Top-left{width: 80px;height: 25px;float: left;font-size: 15px; color: #979797;  text-align: left;}
+.Center>.Center-right>.Top-line>.Top-right{width: 132px;height: 20px;float: right;font-size: 11px;text-align: right;color: #9F9E9E;line-height: 25px;}
+.Center>.Center-right>.Top-line>.Top-right a{color: #D90000;}
+.Center>.Center-right>.Top-line>.Top-right:hover a{text-decoration:underline;}
+/*红线*/
+.Center>.Center-right>.Top-line{border-bottom: 2px solid #AE0002;float: left;width: 325px;height: 25px;}
+/*内容*/
+/*<!--information  免费注册信息-->*/
+.Center-right>.information{width: 325px;height: 325px;float: left;margin-top: 26px;}
+.Center-right>.information li{height: 33px;width: 325px;margin-bottom: 15px;}
+/*验证码*/
+.Center-right>.information li:nth-child(1) .ipt{width: 200px;height: 33px;border: 1px solid #E0E0E0;float: left}
+.Center-right>.information li:nth-child(1) #MobP{width: 150px;height: 15px;text-align: center;float: left;margin-top: 0;margin-left: 0;font-size: 10px;}
+.Center-right>.information li:nth-child(1) .yzm{width: 80px;height: 33px;border: 1px solid #E0E0E0;float: left;margin-left: 11px;font-size: 18px;color: #B42025;text-align: center;line-height: 33px;}
+/*手机号*/
+.Center-right>.information li:nth-child(2) .Mobile{width: 60px;height: 33px;border: 1px solid #E0E0E0;float: left;margin-left: 139px;font-size: 20px;color: purple;font-weight: 700;}
+.Center-right>.information li:nth-child(2) .gain{width: 80px;height: 33px;border: 1px solid #E0E0E0;float: left;margin-left: 11px;font-size: 13px;text-align: center;line-height: 33px;color: #B42025;background: #F5F5F5;cursor: pointer;}
+/*设置登录密码*/
+.Center-right>.information li:nth-child(3) .set{width: 308px;height: 33px;border: 1px solid #E0E0E0;float: left}
+.Center-right>.information li:nth-child(3) span{width: 150px;height: 15px;text-align: center;float: left;margin-top: 0;margin-left: 0;font-size: 10px;}
+/*再次输入密码*/
+.Center-right>.information li:nth-child(4) .toSet{width: 308px;height: 33px;border: 1px solid #E0E0E0;float: left}
+.Center-right>.information li:nth-child(4) span{width: 150px;height: 15px;text-align: center;float: left;margin-top: 0;margin-left: 0;font-size: 10px;}
+/*请阅读*/
+.Center-right>.information li:nth-child(5){width: 308px;height: 33px;float: left;font-size:13px; }
+.Center-right>.information li:nth-child(5) input{margin-top: 3px;float: left;}
+.Center-right>.information li:nth-child(5) a{color: red;}
+/*立即注册*/
+.Center-right>.information li:nth-child(6) p{width: 324px;height: 33px;float: left;font-size:14px;text-align: center
+;line-height: 33px;background: #9A9A9A;color: white;cursor: pointer;}
+.Center-right>.information li:nth-child(6) p:hover{font-size: 15px;}
+/*<!--footer底部*************************************************-->*/
+.Footer{width: 960px;height: 120px;}
+.Footer>p{width: 810px;height: 15px;font-size: 8px;color:darkgray;padding-top: 17px;}
+.Footer>div{margin-left: 195px;margin-top: 10px;}

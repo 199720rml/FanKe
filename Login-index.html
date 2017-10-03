@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>凡客诚品 - 会员登录</title>
+    <link rel="shortcut icon" href="http://ssl.vanclimg.com/common/favicon/favicon.ico"
+                               type="image/x-icon"><link rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/Login-base.css">
+    <link rel="stylesheet" href="css/Login-style.css">
+</head>
+<body>
+<!--logo头部***************************************************-->
+<header class="Head header-typePage">
+    <div><img src="img/logo_new.jpg" alt=""></div>
+    <div><a href="">帮助</a> </div>
+</header>
+<!--Center内容*************************************************-->
+<section class="Center header-typePage">
+    <!--左边图-->
+    <div class="Center-left">
+         <img src="img/login120412_newlogo.jpg" alt="">
+    </div>
+    <!--右边内容-->
+    <div class="Center-right">
+          <div class="Top-left">凡客 Vancl 登录</div>
+          <div class="Top-right">没有账户免费 <a href="Register-index.html">注册</a></div>
+          <div class="Top-Center">
+              <div id="T-box">
+              <ul class="C-R-Btn">
+                    <li class="btn-on">普通登录</li>
+                    <li>快速登录</li>
+                </ul>
+                  <div class="C-R-input" id="C-R-show">
+                    <li>
+                        <input type="text" placeholder="请输入用户名" onblur="yhm()" id="Lyhms">
+                        <span id="Lyhm"></span>
+                    </li>
+                    <li>
+                        <input type="password" placeholder="请输入密码" onblur="Lmas()" id="Lmas">
+                        <span id="Lma"></span>
+                    </li>
+                    <li><a href="">找回密码</a></li>
+                    <li onclick="btn()"><a href="javascript:;">登录</a></li>
+                </div>
+                  <div class="C-R-ipt">
+                     <ul>
+                         <li>
+                             <input type="text" placeholder="输入手机号" onblur="Sjh()" id="Sjhs">
+                             <span id="Sjh"></span>
+                             <p>手机号码</p>
+                         </li>
+                         <li>
+                             <input type="text" placeholder="验证码：" class="ip3" id="codes">
+                             <input class="ip1" value="" id="code">
+                             <p class="ip2" onclick="createCode()">看不清？换一张</p>
+                             <span id="cod"></span>
+                         </li>
+                         <li>
+                             <input type="text" placeholder="请输入手机验证码" id="input" onblur="onyzm()">
+                             <span id="sps"></span>
+                         </li>
+                         <li><a href="javascript:;" onclick="validate()" id="denLU">登录</a></li>
+
+                     </ul> 
+                  </div>
+                  <ul class="C-R-down">
+                      <li>使用合作网站账号登录凡客</li>
+                      <li><img src="img/logos.jpg" alt=""></li>
+                  </ul>
+              </div>
+          </div>
+    </div>
+</section>
+<!--footer底部*************************************************-->
+<footer class="Footer header-typePage">
+    <p class="header-typePage">Copyright 2007 - 2016 vancl.com All 
+        Rights Reserved 京ICP证100557号 京公网安备11010102000579号
+        出版物经营许可证新出发京批字第直110138号
+    </p>
+    <div><img src="img/footer.png" alt=""></div>
+</footer>
+<script src="js/jquery.min.js"></script>
+<script src="js/Login.js"></script>
+</body>
+</html>

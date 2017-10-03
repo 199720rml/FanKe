@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>凡客诚品 - 会员免费注册</title>
+    <link rel="shortcut icon" href="http://ssl.vanclimg.com/common/favicon/favicon.ico"
+          type="image/x-icon"><link rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/Register-base.css">
+    <link rel="stylesheet" href="css/Register-style.css">
+</head>
+<body>
+<!--logo头部***************************************************-->
+<header class="Head header-typePage">
+    <div><img src="img/logo_new.jpg" alt=""></div>
+</header>
+<!--Center内容*************************************************-->
+<section class="Center header-typePage">
+    <!--左边图-->
+    <div class="Center-left">
+        <img src="img/login120412_newlogo.jpg" alt="">
+    </div>
+    <!--右边内容-->
+    <div class="Center-right">
+        <!--红线上-->
+        <div class="Top-line">
+              <div class="Top-left">注册新用户</div>
+              <div class="Top-right">我已经注册,现在就 <a href="Login-index.html">登录</a></div>
+        </div>
+        <!--information  免费注册信息-->
+        <ul class="information">
+             <li>
+                 <input type="text" placeholder="请输入手机号" class="ipt" onblur="Mobile()" id="MobInput">
+                 <span type="text" class="yzm">手机号</span>
+                 <p id="MobP"></p>
+             </li>
+             <li>
+                 <input type="text" value="验证码" class="Mobile" id="code">
+                 <span class="gain" onclick="createCode()">获取验证码</span>
+             </li>
+             <li>
+                 <input type="password" placeholder="设置登录密码" class="set" onblur="Denma()" id="Denma">
+                 <span id="Den"></span>
+             </li>
+             <li>
+                 <input type="password" placeholder="再次输入密码" class="toSet" onblur="Zinput()" id="Zinput">
+                 <span id="Zspan"></span>
+             </li>
+             <li>
+                 <p><input type="checkbox">请阅读 <a href="" >《VANCL凡客诚品服务条款》</a></p>
+             </li>
+             <li>
+                 <p onclick="btn()">立即注册</p>
+             </li>
+        </ul>
+    </div>
+</section>
+<!--footer底部*************************************************-->
+<footer class="Footer header-typePage">
+    <p class="header-typePage">Copyright 2007 - 2016 vancl.com All
+        Rights Reserved 京ICP证100557号 京公网安备11010102000579号
+        出版物经营许可证新出发京批字第直110138号
+    </p>
+    <div><img src="img/footer.png" alt=""></div>
+</footer>
+<script src="js/jquery.min.js"></script>
+<script src="js/Register.js"></script>
+</body>
+</html>
